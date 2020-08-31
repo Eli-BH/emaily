@@ -7,7 +7,7 @@ const app = express();
 //patch update one or two properties of something
 
 app.get("/", (req, res) => {
-  res.send({ hi: "there" });
+  res.send({ bye: "m8" });
 });
 
 const PORT = process.env.PORT || 5000;
